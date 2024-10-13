@@ -10,19 +10,21 @@ async function CabinList({ filter }) {
     if (!cabins.length) return null;
 
     let displayedCabins;
-    if(filter === 'all'){
+    if (filter === "all") {
         displayedCabins = cabins;
     }
 
-    if(filter === 'small'){
+    if (filter === "small") {
         displayedCabins = cabins.filter((cabin) => cabin.maxCapacity <= 3);
     }
 
-    if(filter === 'medium'){
-        displayedCabins = cabins.filter((cabin) => cabin.maxCapacity >= 4 && cabin.maxCapacity <= 7);
+    if (filter === "medium") {
+        displayedCabins = cabins.filter(
+            (cabin) => cabin.maxCapacity >= 4 && cabin.maxCapacity <= 7
+        );
     }
 
-    if(filter === 'large'){
+    if (filter === "large") {
         displayedCabins = cabins.filter((cabin) => cabin.maxCapacity >= 8);
     }
 
