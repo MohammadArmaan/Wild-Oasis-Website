@@ -17,7 +17,7 @@ Welcome to **Wild Oasis**, an online platform where customers can easily log in 
 
 ## Live Preview
 
-You can check out the live version of the website at the following link: [Wild Oasis Website](https://wild-oasis-webiste-armaan.vercel.app).
+You can check out the live version of the website at the following link: [Wild Oasis Website](https://wild-oasis-website-armaan.vercel.app).
 
 ## Developer Information
 
